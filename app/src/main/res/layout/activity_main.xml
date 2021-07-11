@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="131dp"
+        android:layout_y="176dp"
+        android:onClick="findSolution"
+        android:text="Find Solution" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_x="214dp"
+        android:layout_y="50dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/number3"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_x="94dp"
+        android:layout_y="108dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/number4"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_x="213dp"
+        android:layout_y="112dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_x="93dp"
+        android:layout_y="49dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/resultBox"
+        android:layout_width="359dp"
+        android:layout_height="404dp"
+        android:layout_x="29dp"
+        android:layout_y="292dp"
+        android:text="Waiting for command..." />
+
+    <TextView
+        android:id="@+id/tw"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="266dp"
+        android:text="Solutions: " />
+
+</AbsoluteLayout>
